@@ -665,6 +665,7 @@ h4.peofile-header {
   border-radius: 14px;
   border: 1px solid #efefef;
   padding: 30px;
+  padding-bottom: 5px !important;
 }
 
 .benefits-title {
@@ -689,7 +690,7 @@ h4.peofile-header {
 }
 
 .upgrade-list li {
- padding: 8px 0;
+ padding: 6px 0;
 }
 span.benefit-icon > svg {
     width: 18px;
@@ -708,7 +709,7 @@ span.benefit-icon > svg {
   font-weight: 500;
   color: #181818;
   /* font-family: Manrope; */
-  font-size: 17px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: 1;
@@ -785,7 +786,7 @@ border: 1px solid #293750;
     font-style: normal;
     font-weight: 600;
     line-height: 1;
-    padding-top: 3px;
+    padding-top: 5px;
 }
 
 .location-text {
@@ -798,7 +799,7 @@ border: 1px solid #293750;
 }
 
 .outline-btn {
-      padding: 6px 22px;
+      padding: 6px 20px;
     border: 1px solid #000;
     background: #fff;
     color: #000;
@@ -810,7 +811,7 @@ border: 1px solid #293750;
     leading-trim: both;
     text-edge: cap;
     font-family: "Red Hat Display";
-    font-size: 14px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
     line-height: 15px;
@@ -953,6 +954,34 @@ small.chat-txt.text-muted {
     width: 100%;
     margin-top: 10px;
   }
+  .filter-btn:active {
+    border: 1px solid #293750;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 20px;
+    border-radius: 12px;
+    border-radius: 102px;
+    background: #293750;
+    color: #ffffff;
+}
+.filter-btn:hover{
+    border: 1px solid #293750;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 20px;
+    border-radius: 12px;
+    border-radius: 102px;
+    background: #293750;
+    color: #ffffff;
+}
+.top-navbar > a {
+    font-size: 11px;
+}
+.top-navbar > span {
+    font-size: 11px;
+}
 }
 @media (max-width: 1199.98px) {
   .ad-chat-ui {
@@ -1414,7 +1443,7 @@ input.form-control.subscribe-form:active {
   }
 
   .upgrade-title {
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
   }
 
