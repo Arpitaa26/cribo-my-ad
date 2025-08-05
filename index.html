@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cribo - Flatshare Website</title>
+    <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/owl-carousel/owl.theme.default.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="assets/mediaquery.css" />
+  </head>
+  <body>
+       <!--  Top Navbar -->
+    <div class="main_hero">
+      <div class="main_header_container   container-fluid">
+        <div class="top-bar">
+          <div class="container-inside">
+         <div class="top-navbar">
+             <span>✉️ support@cribo.co.uk</span>
+          <a href="#">Contact Us</a>
+          <img
+            src="https://flagcdn.com/gb.svg"
+            alt="UK Flag"
+            width="20"
+            style="margin-left: 1rem"
+          />
+         </div>
+          </div>
+          
+        </div>
+
+        <nav class="navbar">
+          <div class="container-inside">
+          <div class="bottom-navbar">
+          <div class="logo-nav d-flex justify-content-between align-items-center">
+              <div class="logo">
+            <img src="assets/img/main-logo.png" alt="lock icon" />
+          </div>
+          <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          </div>
+          <!-- <div class="mobile-close" id="mobile-close-btn">
+  ✖
+</div> -->
+          <div class="nav-links" id="nav-links">
+            <a href="#">Browse by Areas</a>
+            <a href="#">Studio Apartments</a>
+            <a href="#">UK Universities</a>
+            <a href="#">Whole Property To Rent</a>
+          </div>
+          <div class="nav-actions" id="nav-actions">
+            <button class="post-ad">POST AD</button>
+            <button class="login">LOGIN</button>
+            <button class="signup">SIGN UP</button>
+          </div>
+          </div>
+          </div>
+        </nav>
+      </div>
+
+      <!------banner_container------>
+
+      <!------banner_container end------>
+    </div>
+
+    <!-- DASHBOARD PAGE START -->
+    <!-- Sidebar Toggle Button for small screens -->
+    <button
+      class="btn d-lg-none ham-menu for-mobile"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#sidebarOffcanvas"
+      aria-controls="sidebarOffcanvas"
+    >
+      <a class="ham-menu-link" href="#">
+        <span class="sidebar-menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="10"
+            viewBox="0 0 18 10"
+            fill="none"
+          >
+            <path
+              d="M1 9H17M1 5H11M1 1H17"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            /></svg></span>
+      </a>
+    </button>
+
+    <section class="subscribe-section d-flex">
+      <!-- Sidebar -->
+      <!-- Sidebar for large screens -->
+      <aside class="sidebar d-none d-lg-block" id="sidebarDesktop">
+        <div class="sidebar-header justify-content-between align-items-center">
+          <div class="sidebar-image">
+            <img class="round-img" src="assets/img/Profile_Image.png" />
+          </div>
+          <div class="sidebar-image">
+            <h2 class="peofile-header">Shashaank Kallani</h2>
+            <h4 class="peofile-header">Real Estate Builders</h4>
+          </div>
+        </div>
+        <ul class="nav flex-column mt-4">
+          <li class="nav-item">
+            <a class="nav-link   active" href="#">
+              <span class="sidebar-menu-icon">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <path d="M14.1668 11.6666V16.6666M11.6668 14.1666H16.6668M5.00016 8.33331H6.66683C7.5873 8.33331 8.3335 7.58712 8.3335 6.66665V4.99998C8.3335 4.07951 7.5873 3.33331 6.66683 3.33331H5.00016C4.07969 3.33331 3.3335 4.07951 3.3335 4.99998V6.66665C3.3335 7.58712 4.07969 8.33331 5.00016 8.33331ZM13.3335 8.33331H15.0002C15.9206 8.33331 16.6668 7.58712 16.6668 6.66665V4.99998C16.6668 4.07951 15.9206 3.33331 15.0002 3.33331H13.3335C12.413 3.33331 11.6668 4.07951 11.6668 4.99998V6.66665C11.6668 7.58712 12.413 8.33331 13.3335 8.33331ZM5.00016 16.6666H6.66683C7.5873 16.6666 8.3335 15.9205 8.3335 15V13.3333C8.3335 12.4128 7.5873 11.6666 6.66683 11.6666H5.00016C4.07969 11.6666 3.3335 12.4128 3.3335 13.3333V15C3.3335 15.9205 4.07969 16.6666 5.00016 16.6666Z" stroke="#4F46E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></span>
+              Dashbaord
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="sidebar-menu-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <path
+                    d="M16.6668 10.8333V4.99998C16.6668 4.07951 15.9206 3.33331 15.0002 3.33331H5.00016C4.07969 3.33331 3.3335 4.07951 3.3335 4.99998V10.8333M16.6668 10.8333V15C16.6668 15.9205 15.9206 16.6666 15.0002 16.6666H5.00016C4.07969 16.6666 3.3335 15.9205 3.3335 15V10.8333M16.6668 10.8333H14.512C14.291 10.8333 14.079 10.9211 13.9228 11.0774L11.9109 13.0892C11.7546 13.2455 11.5427 13.3333 11.3217 13.3333H8.67867C8.45766 13.3333 8.2457 13.2455 8.08942 13.0892L6.07757 11.0774C5.92129 10.9211 5.70933 10.8333 5.48832 10.8333H3.3335"
+                    stroke="#64748B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg></span>
+              Messages
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="sidebar-menu-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="13"
+                  viewBox="0 0 15 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1.72222 1.78571L6.13329 5.40964L6.13476 5.41096C6.62456 5.80172 6.8696 5.99722 7.13799 6.07274C7.37522 6.13949 7.62459 6.13949 7.86182 6.07274C8.13045 5.99715 8.3762 5.80109 8.86686 5.40964C8.86686 5.40964 11.6962 3.04752 13.2778 1.78571M1 9.48587V3.51444C1 2.63436 1 2.19399 1.15744 1.85784C1.29592 1.56216 1.51673 1.32193 1.78852 1.17128C2.0975 1 2.50229 1 3.31125 1H11.689C12.498 1 12.9019 1 13.2109 1.17128C13.4827 1.32193 13.7042 1.56216 13.8427 1.85784C14 2.19366 14 2.6335 14 3.51186V9.48853C14 10.3669 14 10.8061 13.8427 11.1419C13.7042 11.4376 13.4827 11.6782 13.2109 11.8289C12.9022 12 12.4985 12 11.6911 12H3.30888C2.5015 12 2.0972 12 1.78852 11.8289C1.51673 11.6782 1.29592 11.4376 1.15744 11.1419C1 10.8058 1 10.366 1 9.48587Z"
+                    stroke="#64748B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg ></span>
+              Email Alerts
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">
+              <span class="sidebar-menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <path d="M13 9L10 6M10 6L7 9M10 6V14M19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19C14.9706 19 19 14.9706 19 10Z" stroke="#8B97A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></span>
+              Upgrade
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="sidebar-menu-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                >
+                  <path
+                    d="M5 11H15M5 6H15M5 1H15M1.00195 11V11.002L1 11.002V11H1.00195ZM1.00195 6V6.002L1 6.00195V6H1.00195ZM1.00195 1V1.002L1 1.00195V1H1.00195Z"
+                    stroke="#788599"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg ></span>
+              My Ads
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="sidebar-menu-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="20"
+                  viewBox="0 0 17 20"
+                  fill="none"
+                >
+                  <path
+                    d="M16.1667 19C16.1667 15.134 12.7715 12 8.58333 12C4.39517 12 1 15.134 1 19M8.58333 9C6.1901 9 4.25 7.20914 4.25 5C4.25 2.79086 6.1901 1 8.58333 1C10.9766 1 12.9167 2.79086 12.9167 5C12.9167 7.20914 10.9766 9 8.58333 9Z"
+                    stroke="#64748B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg ></span>
+              My Account
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="sidebar-menu-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21"
+                  height="17"
+                  viewBox="0 0 21 17"
+                  fill="none"
+                >
+                  <path
+                    d="M13 16C13 13.7909 10.3137 12 7 12C3.68629 12 1 13.7909 1 16M17 13V10M17 10V7M17 10H14M17 10H20M7 9C4.79086 9 3 7.20914 3 5C3 2.79086 4.79086 1 7 1C9.20914 1 11 2.79086 11 5C11 7.20914 9.20914 9 7 9Z"
+                    stroke="#64748B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg   ></span>
+              Update Profile
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="sidebar-menu-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 17 17"
+                  fill="none"
+                >
+                  <path
+                    d="M8.5 11.3125L11.3125 8.5M11.3125 8.5L8.5 5.6875M11.3125 8.5H1M1 4.04502V4.00018C1 2.95008 1 2.42464 1.20436 2.02356C1.38413 1.67076 1.67076 1.38413 2.02356 1.20436C2.42464 1 2.95008 1 4.00018 1H13.0002C14.0503 1 14.5746 1 14.9757 1.20436C15.3285 1.38413 15.6161 1.67076 15.7958 2.02356C16 2.42425 16 2.94906 16 3.9971V13.0034C16 14.0514 16 14.5754 15.7958 14.9761C15.6161 15.3289 15.3285 15.6161 14.9757 15.7958C14.575 16 14.0509 16 13.0029 16H3.9971C2.94906 16 2.42425 16 2.02356 15.7958C1.67076 15.6161 1.38413 15.3287 1.20436 14.9759C1 14.5748 1 14.0501 1 13V12.9531"
+                    stroke="#64748B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg ></span>
+              Logout
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Offcanvas Sidebar for small screens -->
+      <div
+        class="offcanvas offcanvas-start d-lg-none"
+        tabindex="-1"
+        id="sidebarOffcanvas"
+        aria-labelledby="sidebarOffcanvasLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="sidebarOffcanvasLabel"></h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body text-center">
+          <!-- Profile Image and Name -->
+          <div
+            class="sidebar-header justify-content-center align-items-center mb-4"
+          >
+            <div class="sidebar-image">
+              <img
+                class="round-img"
+                src="assets/img/Profile_Image.png"
+                style="width: 80px; height: 80px; border-radius: 50%"
+              />
+            </div>
+            <div class="sidebar-image mt-2">
+              <h2 class="peofile-header mb-1">Shashaank Kallani</h2>
+              <h4 class="peofile-header">Real Estate Builders</h4>
+            </div>
+          </div>
+
+          <ul class="nav flex-column mt-4">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="sidebar-menu-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M14.1668 11.6667V16.6667M11.6668 14.1667H16.6668M5.00016 8.33334H6.66683C7.5873 8.33334 8.3335 7.58715 8.3335 6.66668V5.00001C8.3335 4.07954 7.5873 3.33334 6.66683 3.33334H5.00016C4.07969 3.33334 3.3335 4.07954 3.3335 5.00001V6.66668C3.3335 7.58715 4.07969 8.33334 5.00016 8.33334ZM13.3335 8.33334H15.0002C15.9206 8.33334 16.6668 7.58715 16.6668 6.66668V5.00001C16.6668 4.07954 15.9206 3.33334 15.0002 3.33334H13.3335C12.413 3.33334 11.6668 4.07954 11.6668 5.00001V6.66668C11.6668 7.58715 12.413 8.33334 13.3335 8.33334ZM5.00016 16.6667H6.66683C7.5873 16.6667 8.3335 15.9205 8.3335 15V13.3333C8.3335 12.4129 7.5873 11.6667 6.66683 11.6667H5.00016C4.07969 11.6667 3.3335 12.4129 3.3335 13.3333V15C3.3335 15.9205 4.07969 16.6667 5.00016 16.6667Z"
+                      stroke="#64748B"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span>
+                Dashbaord
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="sidebar-menu-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M16.6668 10.8333V4.99998C16.6668 4.07951 15.9206 3.33331 15.0002 3.33331H5.00016C4.07969 3.33331 3.3335 4.07951 3.3335 4.99998V10.8333M16.6668 10.8333V15C16.6668 15.9205 15.9206 16.6666 15.0002 16.6666H5.00016C4.07969 16.6666 3.3335 15.9205 3.3335 15V10.8333M16.6668 10.8333H14.512C14.291 10.8333 14.079 10.9211 13.9228 11.0774L11.9109 13.0892C11.7546 13.2455 11.5427 13.3333 11.3217 13.3333H8.67867C8.45766 13.3333 8.2457 13.2455 8.08942 13.0892L6.07757 11.0774C5.92129 10.9211 5.70933 10.8333 5.48832 10.8333H3.3335"
+                      stroke="#64748B"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg ></span>
+                Messages
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="sidebar-menu-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="13"
+                    viewBox="0 0 15 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M1.72222 1.78571L6.13329 5.40964L6.13476 5.41096C6.62456 5.80172 6.8696 5.99722 7.13799 6.07274C7.37522 6.13949 7.62459 6.13949 7.86182 6.07274C8.13045 5.99715 8.3762 5.80109 8.86686 5.40964C8.86686 5.40964 11.6962 3.04752 13.2778 1.78571M1 9.48587V3.51444C1 2.63436 1 2.19399 1.15744 1.85784C1.29592 1.56216 1.51673 1.32193 1.78852 1.17128C2.0975 1 2.50229 1 3.31125 1H11.689C12.498 1 12.9019 1 13.2109 1.17128C13.4827 1.32193 13.7042 1.56216 13.8427 1.85784C14 2.19366 14 2.6335 14 3.51186V9.48853C14 10.3669 14 10.8061 13.8427 11.1419C13.7042 11.4376 13.4827 11.6782 13.2109 11.8289C12.9022 12 12.4985 12 11.6911 12H3.30888C2.5015 12 2.0972 12 1.78852 11.8289C1.51673 11.6782 1.29592 11.4376 1.15744 11.1419C1 10.8058 1 10.366 1 9.48587Z"
+                      stroke="#64748B"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg ></span>
+                Email Alerts
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                <span class="sidebar-menu-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M13 9L10 6M10 6L7 9M10 6V14M19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19C14.9706 19 19 14.9706 19 10Z"
+                      stroke="#64748B"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span>
+                Upgrade
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="sidebar-menu-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="12"
+                    viewBox="0 0 16 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M5 11H15M5 6H15M5 1H15M1.00195 11V11.002L1 11.002V11H1.00195ZM1.00195 6V6.002L1 6.00195V6H1.00195ZM1.00195 1V1.002L1 1.00195V1H1.00195Z"
+                      stroke="#788599"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span>
+                My Ads
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="sidebar-menu-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="20"
+                    viewBox="0 0 17 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M16.1667 19C16.1667 15.134 12.7715 12 8.58333 12C4.39517 12 1 15.134 1 19M8.58333 9C6.1901 9 4.25 7.20914 4.25 5C4.25 2.79086 6.1901 1 8.58333 1C10.9766 1 12.9167 2.79086 12.9167 5C12.9167 7.20914 10.9766 9 8.58333 9Z"
+                      stroke="#64748B"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span>
+                My Account
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="sidebar-menu-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="17"
+                    viewBox="0 0 21 17"
+                    fill="none"
+                  >
+                    <path
+                      d="M13 16C13 13.7909 10.3137 12 7 12C3.68629 12 1 13.7909 1 16M17 13V10M17 10V7M17 10H14M17 10H20M7 9C4.79086 9 3 7.20914 3 5C3 2.79086 4.79086 1 7 1C9.20914 1 11 2.79086 11 5C11 7.20914 9.20914 9 7 9Z"
+                      stroke="#64748B"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span>
+                Update Profile
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="sidebar-menu-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="17"
+                    viewBox="0 0 17 17"
+                    fill="none"
+                  >
+                    <path
+                      d="M8.5 11.3125L11.3125 8.5M11.3125 8.5L8.5 5.6875M11.3125 8.5H1M1 4.04502V4.00018C1 2.95008 1 2.42464 1.20436 2.02356C1.38413 1.67076 1.67076 1.38413 2.02356 1.20436C2.42464 1 2.95008 1 4.00018 1H13.0002C14.0503 1 14.5746 1 14.9757 1.20436C15.3285 1.38413 15.6161 1.67076 15.7958 2.02356C16 2.42425 16 2.94906 16 3.9971V13.0034C16 14.0514 16 14.5754 15.7958 14.9761C15.6161 15.3289 15.3285 15.6161 14.9757 15.7958C14.575 16 14.0509 16 13.0029 16H3.9971C2.94906 16 2.42425 16 2.02356 15.7958C1.67076 15.6161 1.38413 15.3287 1.20436 14.9759C1 14.5748 1 14.0501 1 13V12.9531"
+                      stroke="#64748B"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span>
+                Logout
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+
+      <div class="subscribe-content container">
+        <div class="welcome-box">
+          <div class="row">
+            <div class="welcome-text">
+              <h2 class="main-welcome">Hi, Shashaank Kallani</h2>
+              <div class="sub-text">
+                <h4 class="welcome-sub-txt">
+                  Welcome to your dashboard. Here you can manage your ads,
+                  profile and account settings.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Upgrade Section -->
+<div class="upgrade-box my-4">
+  <div class="upgrade-banner d-flex flex-column flex-md-row justify-content-center align-items-center text-center gap-3 p-3 p-md-4">
+    <h4 class="m-0 upgrade-title">Upgrade from Free Ad to Hot Ad.</h4>
+    <button class="btn btn-dark upgrade-btn">Upgrade Now!!</button>
+  </div>
+</div>
+
+
+<div class="ad-chat-both">
+<div class="ad-chat-ui d-flex flex-column flex-lg-row gap-4">
+  <!-- Ads Section -->
+  <div class="ad-list-section flex-grow-1">
+    <div class="d-flex flex-wrap align-items-center gap-2 mb-3">
+      <div class="dropdown">
+        <button class="btn filter-btn active" type="button" >
+          My Ads
+        </button>
+      
+      </div>
+      <div class="dropdown">
+        <button class="btn filter-btn " type="button" >
+          Archived Ads
+        </button>
+       
+      </div>
+      <div class="dropdown">
+        <button class="btn filter-btn " type="button">
+          Saved Ads
+        </button>
+      
+      </div>
+    </div>
+
+    <h5 class="section-heading mb-3">Your Listing</h5>
+
+    <!-- Ad Card (Repeatable Block) -->
+ <div class="ad-cards">
+     <div class="ad-card-box p-3 mb-3 d-flex flex-column flex-md-row gap-3">
+      <img src="assets/img/ad-img1.png" class="ad-thumbnail rounded" alt="Ad" />
+      <div class="flex-grow-1">
+        <div class="d-flex justify-content-between align-items-start">
+          <div class="ad-details">
+            <h6 class="ad-title fw-bold ">3 Story bedroom house, vacant for rent</h6>
+            <p class="price-text ">$32,000/ Year</p>
+            <p class="location-text "><i class="fa fa-map-marker-alt me-1 text-muted"></i> Doane Street, Fremont CA 94538</p>
+          </div>
+          <button class="btn delete-btn"><span class="trash-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10.3301 16.5H13.6601" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9.5 12.5H14.5" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></span></button>
+        </div>
+        <div class="d-flex flex-wrap gap-2  three-btns">
+          <button class="btn outline-btn  active">View</button>
+          <button class="btn outline-btn">Edit</button>
+          <button class="btn outline-btn">View Analytics</button>
+        </div>
+      </div>
+    </div>
+     <div class="ad-card-box p-3 mb-3 d-flex flex-column flex-md-row gap-3">
+      <img src="assets/img/ad-img1.png" class="ad-thumbnail rounded" alt="Ad" />
+      <div class="flex-grow-1">
+        <div class="d-flex justify-content-between align-items-start">
+          <div class="ad-details">
+            <h6 class="ad-title fw-bold ">3 Story bedroom house, vacant for rent</h6>
+            <p class="price-text ">$32,000/ Year</p>
+            <p class="location-text "><i class="fa fa-map-marker-alt me-1 text-muted"></i> Doane Street, Fremont CA 94538</p>
+          </div>
+          <button class="btn delete-btn"><span class="trash-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10.3301 16.5H13.6601" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9.5 12.5H14.5" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></span></button>
+        </div>
+        <div class="d-flex flex-wrap gap-2  three-btns">
+          <button class="btn outline-btn  active">View</button>
+          <button class="btn outline-btn">Edit</button>
+          <button class="btn outline-btn">View Analytics</button>
+        </div>
+      </div>
+    </div>
+
+ </div>
+  </div>
+
+  <!-- Chat Section -->
+  <div class="chat-section border rounded p-3">
+    <h6 class="fw-bold mb-3  rcnt-msg">Recent Messages</h6>
+    <div class="chat-user d-flex align-items-start gap-2 mb-3">
+      <img src="assets/img/profile-icon.png" class="rounded-circle" width="40" height="40" />
+      <div>
+        <p class="chat-name mb-0 fw-semibold">James Benny</p>
+        <small class=" chat-txt text-muted">Hey, Let me know if you’re still available...</small>
+      </div>
+    </div>
+    <div class="chat-user d-flex align-items-start gap-2 mb-3">
+      <img src="assets/img/profile-icon.png" class="rounded-circle" width="40" height="40" />
+      <div>
+        <p class="chat-name mb-0 fw-semibold">William Chynita</p>
+        <small class="chat-txt text-muted">Okay thanks</small>
+      </div>
+    </div>
+    <div class="chat-user d-flex align-items-start gap-2 mb-3">
+      <img src="assets/img/profile-icon.png" class="rounded-circle" width="40" height="40" />
+      <div>
+        <p class="chat-name mb-0 fw-semibold">Henry David</p>
+        <small class="chat-txt text-muted">Alright I’ll get back to you ASAP</small>
+      </div>
+    </div>
+  <div class="chat-user d-flex align-items-start gap-2 mb-3">
+      <img src="assets/img/profile-icon.png" class="rounded-circle" width="40" height="40" />
+      <div>
+        <p class="chat-name mb-0 fw-semibold">Henry David</p>
+        <small class="chat-txt text-muted">Alright I’ll get back to you ASAP</small>
+      </div>
+    </div>
+      <div class="chat-user d-flex align-items-start gap-2 mb-3">
+      <img src="assets/img/profile-icon.png" class="rounded-circle" width="40" height="40" />
+      <div>
+        <p class="chat-name mb-0 fw-semibold">Henry David</p>
+        <small class="chat-txt text-muted">Alright I’ll get back to you ASAP</small>
+      </div>
+    </div>
+      <div class="chat-user d-flex align-items-start gap-2 ">
+      <img src="assets/img/profile-icon.png" class="rounded-circle" width="40" height="40" />
+      <div>
+        <p class=" chat-name mb-0 fw-semibold">Henry David</p>
+        <small class="chat-txt text-muted">Alright I’ll get back to you ASAP</small>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+</div>
+
+<!-- Benefits List -->
+<div class="benefits-box p-4">
+  <h5 class="mb-3 benefits-title">
+    Benefits Of Upgrading Your Free Ad To Hot Ad
+  </h5>
+<ul class="list-unstyled upgrade-list">
+  <li>
+    <div class="icon-text">
+      <span class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M7 14C8.66 14 10 12.66 10 11C10 9.34 8.66 8 7 8C5.34 8 4 9.34 4 11C4 12.66 5.34 14 7 14ZM7 10C7.55 10 8 10.45 8 11C8 11.55 7.55 12 7 12C6.45 12 6 11.55 6 11C6 10.45 6.45 10 7 10ZM19 7H11V15H3V5H1V20H3V17H21V20H23V11C23 8.79 21.21 7 19 7ZM21 15H13V9H19C20.1 9 21 9.9 21 11V15Z" fill="#7F7F7F"/>
+</svg></span>
+      <span>Get your ad labeled as Hot Ad</span>
+    </div>
+  </li>
+  <li>
+    <div class="icon-text">
+      <span class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M7 14C8.66 14 10 12.66 10 11C10 9.34 8.66 8 7 8C5.34 8 4 9.34 4 11C4 12.66 5.34 14 7 14ZM7 10C7.55 10 8 10.45 8 11C8 11.55 7.55 12 7 12C6.45 12 6 11.55 6 11C6 10.45 6.45 10 7 10ZM19 7H11V15H3V5H1V20H3V17H21V20H23V11C23 8.79 21.21 7 19 7ZM21 15H13V9H19C20.1 9 21 9.9 21 11V15Z" fill="#7F7F7F"/>
+</svg></span>
+      <span>View all the ads posted by users (landlords, agents and roomhunters)</span>
+    </div>
+  </li>
+  <li>
+    <div class="icon-text">
+      <span class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M7 14C8.66 14 10 12.66 10 11C10 9.34 8.66 8 7 8C5.34 8 4 9.34 4 11C4 12.66 5.34 14 7 14ZM7 10C7.55 10 8 10.45 8 11C8 11.55 7.55 12 7 12C6.45 12 6 11.55 6 11C6 10.45 6.45 10 7 10ZM19 7H11V15H3V5H1V20H3V17H21V20H23V11C23 8.79 21.21 7 19 7ZM21 15H13V9H19C20.1 9 21 9.9 21 11V15Z" fill="#7F7F7F"/>
+</svg></span>
+      <span>Get faster response (approx. 3 times faster) to your ads as everyone can contact you</span>
+    </div>
+  </li>
+  <li>
+    <div class="icon-text">
+      <span class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M7 14C8.66 14 10 12.66 10 11C10 9.34 8.66 8 7 8C5.34 8 4 9.34 4 11C4 12.66 5.34 14 7 14ZM7 10C7.55 10 8 10.45 8 11C8 11.55 7.55 12 7 12C6.45 12 6 11.55 6 11C6 10.45 6.45 10 7 10ZM19 7H11V15H3V5H1V20H3V17H21V20H23V11C23 8.79 21.21 7 19 7ZM21 15H13V9H19C20.1 9 21 9.9 21 11V15Z" fill="#7F7F7F"/>
+</svg></span>
+      <span>Get immediate Access ( access to free ads which are less than 14 days old)</span>
+    </div>
+  </li>
+  <li>
+    <div class="icon-text">
+      <span class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M7 14C8.66 14 10 12.66 10 11C10 9.34 8.66 8 7 8C5.34 8 4 9.34 4 11C4 12.66 5.34 14 7 14ZM7 10C7.55 10 8 10.45 8 11C8 11.55 7.55 12 7 12C6.45 12 6 11.55 6 11C6 10.45 6.45 10 7 10ZM19 7H11V15H3V5H1V20H3V17H21V20H23V11C23 8.79 21.21 7 19 7ZM21 15H13V9H19C20.1 9 21 9.9 21 11V15Z" fill="#7F7F7F"/>
+</svg></span>
+      <span>Contact all the Hot ads and Free ads (ads which are less than 14 days old) from day one.</span>
+    </div>
+  </li>
+  <li>
+    <div class="icon-text">
+      <span class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M7 14C8.66 14 10 12.66 10 11C10 9.34 8.66 8 7 8C5.34 8 4 9.34 4 11C4 12.66 5.34 14 7 14ZM7 10C7.55 10 8 10.45 8 11C8 11.55 7.55 12 7 12C6.45 12 6 11.55 6 11C6 10.45 6.45 10 7 10ZM19 7H11V15H3V5H1V20H3V17H21V20H23V11C23 8.79 21.21 7 19 7ZM21 15H13V9H19C20.1 9 21 9.9 21 11V15Z" fill="#7F7F7F"/>
+</svg></span>
+      <span>Hot Ad stays near top of the listings giving it higher visibility on the search results page</span>
+    </div>
+  </li>
+</ul>
+
+</div>
+  
+      </div>
+    </section>
+    <!-- dashboard PAGE END -->
+
+    <!-- footer -->
+    <footer class="main-footer py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Logo -content -->
+          <div class="col-lg-3 col-sm-6 mb-4 footer-column">
+            <div class="footer-logo">
+              <img
+                src="./assets/img/footer-logo.svg"
+                alt="Logo"
+                class="footer-logo-img"
+              />
+            </div>
+            <p class="footer-subtext logo-txt">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
+          </div>
+
+          <!-- Office Address -->
+          <div class="col-lg-3 col-sm-6 mb-4 footer-column">
+            <h6 class="footer-heading">Office Address</h6>
+            <p class="footer-text mb-1">Head Office:</p>
+            <p class="footer-subtext">Amersham, Oxford, UKM</p>
+            <p class="footer-text mb-1">Branch:</p>
+            <p class="footer-subtext footer-column-txt">
+              Tower Hamlets Address tower Floor 4A,<br />
+              411 Park Road, London
+            </p>
+            <p class="footer-subtext footer-column-txt">
+              66 Al Mustaqbal, Dubai, Business Bay,<br />
+              Dubai, UAE
+            </p>
+          </div>
+
+
+          <!-- Our Company -->
+          <div class="col-lg-3 col-sm-6 mb-4 footer-column">
+            <h6 class="footer-heading">Our Company</h6>
+            <ul class="list-unstyled fotter-list-link">
+              <li>
+                <span class="footer-arrow"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.125 2.75L7.875 6.5L4.125 10.25"
+                      stroke="#CC0001"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span
+                ><a href="#" class="footer-link">Property for Sale</a>
+              </li>
+              <li>
+                <span class="footer-arrow"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.125 2.75L7.875 6.5L4.125 10.25"
+                      stroke="#CC0001"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span
+                ><a href="#" class="footer-link">About Us</a>
+              </li>
+              <li>
+                <span class="footer-arrow"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.125 2.75L7.875 6.5L4.125 10.25"
+                      stroke="#CC0001"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span
+                ><a href="#" class="footer-link">Terms of Use</a>
+              </li>
+              <li>
+                <span class="footer-arrow"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.125 2.75L7.875 6.5L4.125 10.25"
+                      stroke="#CC0001"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span
+                ><a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+              <li>
+                <span class="footer-arrow"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.125 2.75L7.875 6.5L4.125 10.25"
+                      stroke="#CC0001"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    /></svg></span
+                ><a href="#" class="footer-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-lg-3 col-sm-6 mb-4 footer-column">
+            <h6 class="footer-heading">Newsletter</h6>
+            <p class="footer-text-sign-up">
+              Sign up to receive the latest articles
+            </p>
+            <form class="newsletter-form">
+              <div class="mb-2">
+                <input
+                  type="email"
+                  class="form-control subscribe-form"
+                  placeholder="Your email address"
+                />
+              </div>
+              <button type="submit" class="btn sign-up-btn">Sign Up</button>
+              <div class="form-check mt-2">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="termsCheck"
+                />
+                <label class="form-check-label" for="termsCheck">
+                  I have read and agree to the terms
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div
+          class="d-md-flex justify-content-between align-items-center text-center mt-4"
+        >
+          <!-- <div class="footer-logo mb-2 mb-md-0">
+            <img
+              src="./assets/img/footer-logo.svg"
+              alt="Logo"
+              class="footer-logo-img"
+            />
+          </div> -->
+          <!-- <ul
+            class="nav justify-content-center justify-content-md-end mb-2 mb-md-0"
+          >
+            <li class="nav-item">
+              <a class="nav-link footer-nav" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer-nav" href="#">Property</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer-nav" href="#">Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer-nav" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer-nav" href="#">Contact</a>
+            </li>
+          </ul> -->
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f me-2"></i></a>
+            <a href="#"><i class="fab fa-twitter me-2"></i></a>
+            <a href="#"><i class="fab fa-instagram me-2"></i></a>
+            <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
+          </div>
+        </div>
+        <hr />
+        <div class="copyright-text text-center mt-3">
+          Copyright © 2025 CRIBO
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/owl-carousel/jquery.min.js"></script>
+    <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
